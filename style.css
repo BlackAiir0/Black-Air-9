@@ -1,0 +1,19 @@
+/*
+Theme Name: Black Air Electric
+Theme URI: https://blackairelectric.com/
+Author: Your Name
+Author URI: https://yourwebsite.com/
+Description: Custom theme for Black Air Electric marketplace.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: blackairelectric-theme
+Tags: custom-theme, ecommerce, simple, minimal
+*/
+
+/* Start writing your CSS below */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
