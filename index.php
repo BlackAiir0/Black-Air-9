@@ -1,6 +1,6 @@
 <?php
 // fallback in case no template is found
 get_header();
-echo "Welcome to Black Air - Powered by Github + Hostinger";
+echo "welome to black Air -updated"
 get_footer();
 ?>
