@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main>
-    <h1>WELCOME TO BLACK AIR SOLAR FIRM</h1>
+    <h1>WELCOME TO BLACK AIR robot FIRM</h1>
     <?php
     if (have_posts()) :
         while (have_posts()) : the_post(); ?>
