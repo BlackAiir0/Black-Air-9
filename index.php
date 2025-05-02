@@ -1,6 +1,19 @@
-<?php
-// fallback in case no template is found
-get_header();
-echo "welome In Black Air and black ev for EEV -updated"
-get_footer();
-?>
+<?php get_header(); ?>
+
+<main>
+    <h1>Welcome to Black Air Electric</h1>
+    <p>This is the homepage of your custom theme.</p>
+
+    <?php
+    if (have_posts()) :
+        while (have_posts()) : the_post();
+            the_title('<h2>', '</h2>');
+            the_content();
+        endwhile;
+    else :
+        echo '<p>No content found</p>';
+    endif;
+    ?>
+</main>
+
+<?php get_footer(); ?>
