@@ -1,6 +1,6 @@
 <?php
 // fallback in case no template is found
 get_header();
-echo "welome to black Air for ev -updated"
+echo "welome In black Air for EEV -updated"
 get_footer();
 ?>
