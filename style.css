@@ -1,19 +1,12 @@
 /*
 Theme Name: Black Air Electric
-Theme URI: https://blackairelectric.com/
-Author: Your Name
-Author URI: https://yourwebsite.com/
-Description: Custom theme for Black Air Electric marketplace.
+Theme URI: https://blackairelectric.com
+Author: Black Air
+Author URI: https://blackairelectric.com
+Description: Custom theme for Black Air Electric website
 Version: 1.0
 License: GNU General Public License v2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: blackairelectric-theme
-Tags: custom-theme, ecommerce, simple, minimal
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: black-air-electric
+Tags: custom-theme, black-air, electric
 */
-
-/* Start writing your CSS below */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
