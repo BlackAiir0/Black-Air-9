@@ -1,5 +1,8 @@
-<footer style="background: #222; padding: 20px; color: white; text-align: center;">
-    <p>&copy; <?php echo date('Y'); ?> Black Air Electric. All Rights Reserved.</p>
+<footer>
+    <p>&copy; <?php echo date('Y'); ?> Black Air Electric. All rights reserved.</p>
+    <nav>
+        <?php wp_nav_menu(array('theme_location' => 'footer-menu')); ?>
+    </nav>
 </footer>
 
 <?php wp_footer(); ?>
