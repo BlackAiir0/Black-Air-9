@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main>
-    <h1>Welcome to Black Air Electric</h1>
+    <h1>Welcome to Black Air solar company</h1>
     <p>This is the homepage of your custom theme.</p>
 
     <?php
