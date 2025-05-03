@@ -1,3 +1,4 @@
+<?php echo "Loaded: front-page.php"; ?>
 <?php get_header(); ?>
 
 <div id="primary" class="content-area">
