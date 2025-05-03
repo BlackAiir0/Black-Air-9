@@ -67,3 +67,33 @@ Tags: custom-theme, black-air, electric
 .excerpt {
     color: #666;
 }
+/* Blog post card layout */
+.post {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .post h2 a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .post h2 a:hover {
+    color: #0073aa;
+  }
+  
+  .excerpt {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+  }
