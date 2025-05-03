@@ -29,3 +29,20 @@ Tags: custom-theme, black-air, electric
     max-width: 100%;
     height: auto;
 }
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.main-content {
+    flex: 3;
+    margin-right: 20px;
+}
+.post-thumbnail img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.sidebar {
+    flex: 1;
+}
