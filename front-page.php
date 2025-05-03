@@ -1,5 +1,9 @@
 <?php
 echo "FRONT PAGE LOADED";
+get_header();
+
+<?php
+echo "FRONT PAGE LOADED";
 ?>
 <?php echo "Loaded: front-page.php"; ?>
 <?php get_header(); ?>
