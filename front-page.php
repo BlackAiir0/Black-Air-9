@@ -46,3 +46,26 @@
 </main>
 
 <?php get_footer(); ?>
+<?php get_header(); ?>
+
+<div class="home-banner">
+    <h1>Welcome to Black Air Electric</h1>
+    <p>Your one-stop shop for electricals, electronics, and services</p>
+</div>
+
+<div class="home-content">
+    <h2>Latest Posts</h2>
+    <?php if ( have_posts() ) : ?>
+        <ul class="home-posts">
+            <?php while ( have_posts() ) : the_post(); ?>
+                <li>
+                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                </li>
+            <?php endwhile; ?>
+        </ul>
+    <?php else : ?>
+        <p>No posts found.</p>
+    <?php endif; ?>
+</div>
+
+<?php get_footer(); ?>
