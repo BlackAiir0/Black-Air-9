@@ -17,3 +17,32 @@
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
+<?php get_header(); ?>
+
+<main class="main-home">
+  <section class="hero">
+    <h1>Welcome to Black Air Electric</h1>
+    <p>Your one-stop destination for all electrical, plumbing & tech needs.</p>
+  </section>
+
+  <section class="categories">
+    <h2>Our Product Categories</h2>
+    <ul>
+      <li><a href="<?php echo site_url('/electricals'); ?>">Electricals</a></li>
+      <li><a href="<?php echo site_url('/hardware'); ?>">Hardware</a></li>
+      <li><a href="<?php echo site_url('/plumbing'); ?>">Plumbing</a></li>
+      <li><a href="<?php echo site_url('/electronics'); ?>">Electronics</a></li>
+    </ul>
+  </section>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li><a href="<?php echo site_url('/ac-installation'); ?>">AC Installation</a></li>
+      <li><a href="<?php echo site_url('/tv-repair'); ?>">TV Repair</a></li>
+      <li><a href="<?php echo site_url('/car-service'); ?>">Car Service</a></li>
+    </ul>
+  </section>
+</main>
+
+<?php get_footer(); ?>
