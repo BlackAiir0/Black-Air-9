@@ -10,3 +10,22 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: black-air-electric
 Tags: custom-theme, black-air, electric
 */
+.homepage-posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.homepage-post {
+    flex: 1 1 calc(33.333% - 40px);
+    border: 1px solid #ddd;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.homepage-post img {
+    max-width: 100%;
+    height: auto;
+}
