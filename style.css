@@ -46,3 +46,24 @@ Tags: custom-theme, black-air, electric
 .sidebar {
     flex: 1;
 }
+.post {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.post h2 {
+    color: #333;
+    font-size: 22px;
+}
+
+.post-thumbnail img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.excerpt {
+    color: #666;
+}
