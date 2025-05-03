@@ -1,3 +1,6 @@
+<?php
+echo "FRONT PAGE LOADED";
+?>
 <?php echo "Loaded: front-page.php"; ?>
 <?php get_header(); ?>
 
