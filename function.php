@@ -22,3 +22,14 @@ function blackair_enqueue_scripts() {
 }
 add_action('wp_enqueue_scripts', 'blackair_enqueue_scripts');
 ?>
+function blackairelectric_widgets_init() {
+    register_sidebar( array(
+        'name'          => 'Main Sidebar',
+        'id'            => 'main-sidebar',
+        'before_widget' => '<div class="widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>',
+    ));
+}
+add_action( 'widgets_init', 'blackairelectric_widgets_init' );
