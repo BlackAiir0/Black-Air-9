@@ -21,7 +21,8 @@ function blackair_enqueue_scripts() {
     wp_enqueue_style('style', get_stylesheet_uri());
 }
 add_action('wp_enqueue_scripts', 'blackair_enqueue_scripts');
-?>
+
+// Register sidebar widgets
 function blackairelectric_widgets_init() {
     register_sidebar( array(
         'name'          => 'Main Sidebar',
@@ -33,3 +34,4 @@ function blackairelectric_widgets_init() {
     ));
 }
 add_action( 'widgets_init', 'blackairelectric_widgets_init' );
+?>

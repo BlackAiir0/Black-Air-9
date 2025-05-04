@@ -10,107 +10,26 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: black-air-electric
 Tags: custom-theme, black-air, electric
 */
-.homepage-posts {
+
+/* Homepage Post Grid */
+.homepage-posts,
+.blog-posts {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-}
-
-.homepage-post {
-    flex: 1 1 calc(33.333% - 40px);
-    border: 1px solid #ddd;
-    padding: 15px;
-    background: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
-.homepage-post img {
-    max-width: 100%;
-    height: auto;
-}
-.content-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-}
-.main-content {
-    flex: 3;
-    margin-right: 20px;
-}
-.post-thumbnail img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-}
-.sidebar {
-    flex: 1;
-}
-.post {
-    background-color: #f1f1f1;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-}
-
-.post h2 {
-    color: #333;
-    font-size: 22px;
-}
-
-.post-thumbnail img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-.excerpt {
-    color: #666;
-}
-/* Blog post card layout */
-.post {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin-bottom: 20px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .post h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .post h2 a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  .post h2 a:hover {
-    color: #0073aa;
-  }
-  
-  .excerpt {
-    color: #666;
-    font-size: 16px;
-    line-height: 1.6;
-  }
-  .blog-posts {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 20px;
     justify-content: center;
 }
 
+/* Individual Post Card */
 .post {
     width: 300px;
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 15px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: 0.3s ease;
 }
 
@@ -118,18 +37,57 @@ Tags: custom-theme, black-air, electric
     transform: translateY(-5px);
 }
 
+/* Post Title */
+.post h2,
+.post-title {
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.post h2 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.post h2 a:hover {
+    color: #0073aa;
+}
+
+/* Thumbnail Image */
 .post-thumbnail img {
     width: 100%;
     height: auto;
+    display: block;
+    margin-bottom: 15px;
 }
 
-.post-title {
-    font-size: 20px;
-    margin: 10px 0;
-    font-weight: bold;
-}
-
+/* Excerpt */
+.excerpt,
 .post-excerpt {
+    color: #666;
     font-size: 16px;
-    color: #555;
+    line-height: 1.6;
+}
+
+/* Layout Wrapper */
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.main-content {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.sidebar {
+    flex: 1;
+}
+
+/* Optional Test */
+body {
+    background-color: #fffef8; /* light yellow to test loading */
 }
