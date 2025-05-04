@@ -16,7 +16,7 @@ function blackair_register_menus() {
 }
 add_action('init', 'blackair_register_menus');
 
-// Enqueue CSS
+// Enqueue CSS with versioning to force reload
 function blackair_enqueue_scripts() {
     wp_enqueue_style('blackair-style', get_stylesheet_uri(), array(), filemtime(get_stylesheet_directory() . '/style.css'));
 }
