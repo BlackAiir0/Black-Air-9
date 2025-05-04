@@ -1,7 +1,4 @@
 <?php
-// Show that front-page.php loaded
-echo "FRONT PAGE LOADED";
-
 get_header();
 ?>
 
@@ -13,7 +10,7 @@ get_header();
     <p>Your one-stop destination for all electrical, plumbing & tech needs.</p>
   </section>
 
-  <!-- Categories Section -->
+  <!-- Product Categories -->
   <section class="categories">
     <h2>Our Product Categories</h2>
     <ul>
@@ -34,13 +31,13 @@ get_header();
     </ul>
   </section>
 
-  <!-- Latest Posts Section -->
+  <!-- Latest Blog Posts -->
   <section class="homepage-posts">
     <h2>Latest Posts</h2>
-    <?php if ( have_posts() ) : ?>
-      <?php while ( have_posts() ) : the_post(); ?>
+    <?php if (have_posts()) : ?>
+      <?php while (have_posts()) : the_post(); ?>
         <article class="homepage-post">
-          <?php if ( has_post_thumbnail() ) : ?>
+          <?php if (has_post_thumbnail()) : ?>
             <a href="<?php the_permalink(); ?>">
               <?php the_post_thumbnail('medium'); ?>
             </a>
