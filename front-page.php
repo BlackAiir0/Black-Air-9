@@ -57,3 +57,7 @@ get_header();
 get_sidebar();
 get_footer();
 ?>
+<div class="container">
+    <h1>Welcome to Black Air Electric</h1>
+    <p>Your one-stop destination for all electrical, plumbing & tech needs.</p>
+</div>
