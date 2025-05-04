@@ -18,6 +18,8 @@ add_action('init', 'blackair_register_menus');
 
 // Enqueue CSS and JS
 function blackair_enqueue_scripts() {
+    wp_enqueue_style('blackair-style', get_stylesheet_uri(), array(), filemtime(get_stylesheet_directory() . '/style.css'));
+}
     wp_enqueue_style('style', get_stylesheet_uri());
 }
 add_action('wp_enqueue_scripts', 'blackair_enqueue_scripts');
