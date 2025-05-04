@@ -1,4 +1,6 @@
 <?php get_header(); ?>
+echo "<h1 style='color: red;'>Front-page.php is loading</h1>";
+</front-page>
 
 <div class="blog-posts">
     <?php
