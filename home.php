@@ -24,3 +24,25 @@ echo "<h1 style='color: red;'>Front-page.php is loading</h1>";
 </div>
 
 <?php get_footer(); ?>
+<?php get_header(); ?>
+
+<div class="content-area">
+  <main>
+    <h1>Latest Posts</h1>
+    <?php
+    if ( have_posts() ) :
+        while ( have_posts() ) : the_post(); ?>
+            <article>
+                <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                <?php the_post_thumbnail(); ?>
+                <?php the_excerpt(); ?>
+            </article>
+        <?php endwhile;
+    else :
+        echo '<p>No content found</p>';
+    endif;
+    ?>
+  </main>
+</div>
+
+<?php get_footer(); ?>
